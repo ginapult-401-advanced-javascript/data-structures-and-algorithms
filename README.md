@@ -8,3 +8,5 @@ Challenge 04 - n/a
 Challenge 05 - Linked List Implementation
 Challenge 06 - Linked List Insertions
 Challenge 07 - Linked List kth from the End
+Challenge 08 - Tic-tac-toe
+Challenge 09 - Mock Interviews
