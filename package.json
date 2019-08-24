@@ -1,0 +1,23 @@
+{
+  "name": "data-structures-and-algorithms",
+  "version": "1.0.0",
+  "description": "Table of Contents\r 1. challenge-01-reverseArray - 8.15.2019 - whiteboard: ![alt text](./assets/wb-code-challenge-01-reverse-array.jpg \"challenge 01 white board\")\r 2. challenge-05-linkedLists - 8.24.2019 - whiteboard:",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ginapult-401-advanced-javascript/data-structures-and-algorithms.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ginapult-401-advanced-javascript/data-structures-and-algorithms/issues"
+  },
+  "homepage": "https://github.com/ginapult-401-advanced-javascript/data-structures-and-algorithms#readme",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}
