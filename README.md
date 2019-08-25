@@ -6,6 +6,7 @@ Table of Contents
 3. challenge-06-ll-insertions - 8.24.2019
 4. challenge-07-tic-tac-toe - placeholder
 5. challenge-08-kth-value-from-end - 8.24.2019
+6. challenge-10-stack-and-queue - 8.24.2019
 
 ***
 
@@ -67,3 +68,37 @@ Table of Contents
 
 ## API
 * kthFromEnd()
+
+***
+
+# challenge-10-stack-and-queue
+
+## The challenge was to:
+* create a Node class with properties for value and pointer to next
+* create a Stack class with a top property
+  * creates an empty Stack when instantiated
+  * object is aware of default empty value assigned to top when stack created
+  * define push method - takes a value and adds a new Node with that value to the top of the stack with O(1) Time performance
+  * define pop method - no argument, removes the node from the top of the stack, returns the node's value
+  * define peek method - no argument, returns the value of the node located on top of the stack without removing it
+* create a Queue class with a front property
+  * creates an empty queue when instantiaed
+  * object is aware of default empty values assigned to front when queue created
+  * define enqueue method - takes any value, adds a new Node with that value back to the back of the queue with O(1) Time performance
+  * define dequeue method - takes no argument, removes the node form the front of the queue, returns the nodes value
+  * defines peek method - no argument, returns value of node located at front of queue, without removing it from the queue
+
+## Approach and Efficiency
+* Approach I took: followed instructions, wrote out steps before coding, used testing to refine/problem solve
+* Big O of space/time: O(1) because precise action, not iterating
+
+## API
+**Stacks**
+* push()
+* pop()
+* peekTop()
+
+**Queues**
+* enqueue()
+* dequeue()
+* peekFront()

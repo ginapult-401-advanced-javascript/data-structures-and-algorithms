@@ -22,6 +22,25 @@ class LinkedList {
     }
   }
 
+  remove(value) {
+    if (!this.includes(value)) {
+      return;
+    }
+    if (this.head.value === value) {
+      this.head = this.head.next;
+      return;
+    }
+    
+    let previous = null;
+    let current = this.head;
+
+    while(current.value !== value) {
+      previous = current;
+      current = current.next;
+    }
+    previous.next = current.next;
+  }
+
   includes(value) {
     let current = this.head;
     while(current) {
