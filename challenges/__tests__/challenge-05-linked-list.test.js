@@ -47,4 +47,58 @@ describe('Testing linked list', () => {
     returnValsList.insert(120);
     expect(returnValsList.toString()).toEqual('120,110,100,');
   });
+
+  // Linked list insertions testing
+
+  test('Testing append', () => {
+    let testAppendList = new LinkedList();
+    testAppendList.insert(130);
+    testAppendList.insert(140);
+    testAppendList.append(150);
+    expect(testAppendList.toString()).toEqual('140,130,150,');
+  });
+
+  test('Testing append multiple', () => {
+    let testAppendMultList = new LinkedList();
+    testAppendMultList.insert(160);
+    testAppendMultList.insert(170);
+    testAppendMultList.insert(180);
+    testAppendMultList.append(190);
+    testAppendMultList.append(200);
+    expect(testAppendMultList.toString()).toEqual('180,170,160,190,200,');
+  });
+
+  test('Testing insert before middle', () => {
+    let testInsertMidList = new LinkedList();
+    testInsertMidList.insert(210);
+    testInsertMidList.insert(220);
+    testInsertMidList.insert(230);
+    testInsertMidList.insertBefore(220, 240);
+    expect(testInsertMidList.toString()).toEqual('230,240,220,210,');
+  });
+
+  test('Testing insert before first node', () => {
+    let testInsBeforeFirstList = new LinkedList();
+    testInsBeforeFirstList.insert(250);
+    testInsBeforeFirstList.insertBefore(260);
+    expect(testInsBeforeFirstList.toString()).toEqual('260,250,');
+  });
+
+  test('Testing insert after middle', () => {
+    let testInsAftMidList = new LinkedList();
+    testInsAftMidList.insert(270);
+    testInsAftMidList.insert(280);
+    testInsAftMidList.insert(290);
+    testInsAftMidList.insertAfter(280, 300);
+    expect(testInsAftMidList.toString()).toEqual('290,280,300,270,');
+  });
+
+  test('Testing insert after last node', () => {
+    let testInsAftLastList = new LinkedList();
+    testInsAftLastList.insert(310);
+    testInsAftLastList.insert(320);
+    testInsAftLastList.insert(330);
+    testInsAftLastList.insertBefore(310, 340);
+    expect(testInsAftLastList.toString()).toEqual('330,320,310,340,');
+  });
 });
