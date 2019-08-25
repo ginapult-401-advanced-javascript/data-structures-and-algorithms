@@ -13,7 +13,7 @@ class LinkedList {
   }
 
   insert(value) {
-    const newNode = new Node(value);
+    let newNode = new Node(value);
     if(!this.head) {
       this.head = newNode;
     } else {
@@ -41,6 +41,66 @@ class LinkedList {
       current  = current.next;
     }
     return llString;
+  }
+
+  append(value) {
+    let newNode = new Node(value);
+
+    if (!this.head) {
+      this.head = newNode;
+      return this.head;
+    } else {
+      let current = this.head;
+      while(current.next !== null) {
+        current = current.next;
+      }
+      current.next = newNode;
+    }
+    return this.head;
+  }
+
+  insertBefore(value, newVal) {
+    let newNode = new Node(newVal);
+    let current = this.head;
+
+    if(!current) {
+      this.head = newNode;
+      return this.head;
+    } else {
+      if(this.head.value === value) {
+        newNode.next = this.head;
+        this.head = newNode;
+      }
+      while(current) {
+        if(!current.next) {
+          return 'current.next is null';
+        } else if(current.next.value === value) {
+          newNode.next = current.next;
+          current.next = newNode;
+          return;
+        }
+        current = current.next;
+      }
+    }
+  }
+  
+  insertAfter(value, newVal) {
+    let newNode = new Node(newVal);
+    let current = this.head;
+
+    if(!current) {
+      this.head = newNode;
+      return this.head;
+    }
+
+    while(current) {
+      if(current.value === value) {
+        newNode.next = current.next;
+        current.next = newNode;
+        return;
+      }
+      current = current.next;
+    }
   }
 }
 
