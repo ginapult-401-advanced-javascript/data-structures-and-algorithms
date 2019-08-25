@@ -14,7 +14,7 @@ Table of Contents
 * create LinkedList class with a this.head property
 * empty linked list created upon instantiation of LinkedList class
 * define insert method that adds a node to the head of the list with O(1) time performance
-* defined include method to check if a value exists returning true or false
+* define include method to check if a value exists returning true or false
 * define a toString method to return a string representing all values in the linked list
 * build passing testing for above functionality
 * complete README
@@ -30,4 +30,21 @@ Table of Contents
 
 ***
 
+# challenge-06-ll-insertions
+
+## The challenge was to:
+* define an append method to add a new node to the end of a list
+* define an insertBefore method to add a new node immediately before a given value
+* define an insertAfter method to add a new node with the new value immediately after the given value
+* build passing testing for above functionality
+* complete README
+
+## Approach and Efficiency
+* Approach I took: created methods and tested until passing
+* Big O of space/time: O(n)
+
+## API
+* append()
+* insertBefore()
+* insertAfter()
 
