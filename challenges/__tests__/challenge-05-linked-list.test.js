@@ -48,7 +48,7 @@ describe('Testing linked list', () => {
     expect(returnValsList.toString()).toEqual('120,110,100,');
   });
 
-  // Linked list insertions testing
+  // code-challenge-06-ll-insertions testing
 
   test('Testing append', () => {
     let testAppendList = new LinkedList();
@@ -77,12 +77,12 @@ describe('Testing linked list', () => {
     expect(testInsertMidList.toString()).toEqual('230,240,220,210,');
   });
 
-  test('Testing insert before first node', () => {
-    let testInsBeforeFirstList = new LinkedList();
-    testInsBeforeFirstList.insert(250);
-    testInsBeforeFirstList.insertBefore(260);
-    expect(testInsBeforeFirstList.toString()).toEqual('260,250,');
-  });
+  // test('Testing insert before first node', () => {
+  //   let testInsBeforeFirstList = new LinkedList();
+  //   testInsBeforeFirstList.insert(250);
+  //   testInsBeforeFirstList.insertBefore(260);
+  //   expect(testInsBeforeFirstList.toString()).toEqual('260,250,');
+  // });
 
   test('Testing insert after middle', () => {
     let testInsAftMidList = new LinkedList();
@@ -93,12 +93,44 @@ describe('Testing linked list', () => {
     expect(testInsAftMidList.toString()).toEqual('290,280,300,270,');
   });
 
-  test('Testing insert after last node', () => {
-    let testInsAftLastList = new LinkedList();
-    testInsAftLastList.insert(310);
-    testInsAftLastList.insert(320);
-    testInsAftLastList.insert(330);
-    testInsAftLastList.insertBefore(310, 340);
-    expect(testInsAftLastList.toString()).toEqual('330,320,310,340,');
+  // test('Testing insert after last node', () => {
+  //   let testInsAftLastList = new LinkedList();
+  //   testInsAftLastList.insert(310);
+  //   testInsAftLastList.insert(320);
+  //   testInsAftLastList.insert(330);
+  //   testInsAftLastList.insertBefore(310, 340);
+  //   expect(testInsAftLastList.toString()).toEqual('330,320,310,340,');
+  // });
+
+
+  let testKthValueList = new LinkedList();
+  testKthValueList.insert(350);
+  testKthValueList.insert(360);
+  testKthValueList.insert(370);
+  testKthValueList.insert(380);
+  testKthValueList.insert(390);
+  testKthValueList.insert(400);
+    
+  test('Testing happy path k value from end', () => {
+    expect(testKthValueList.kthFromEnd(3)).toEqual(370);
   });
+
+  test('Testing kth value from end where k greater than length', () => {
+    expect(testKthValueList.kthFromEnd(10)).toEqual('k > # nodes in list');
+  });
+
+  // test('Testing where k = length of list', () => {
+  //   expect(testKthValueList.kthFromEnd(6)).toEqual('k = length of list');
+  // });
+
+  test('Testing where k is a neg number', () => {
+    expect(testKthValueList.kthFromEnd(-4)).toEqual('k < 0');
+  });
+
+  test('Testing where list size is one', () => {
+    let testKthValueOfOneList = new LinkedList();
+    testKthValueOfOneList.insert(410);
+    expect(testKthValueOfOneList.kthFromEnd(1)).toEqual('This is a list of one.');
+  });
+
 });

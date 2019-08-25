@@ -43,6 +43,8 @@ class LinkedList {
     return llString;
   }
 
+  // code-challenge-06-ll-insertions
+
   append(value) {
     let newNode = new Node(value);
 
@@ -102,6 +104,42 @@ class LinkedList {
       current = current.next;
     }
   }
+
+  // code-challenge-08-kth-value-from-end
+  kthFromEnd(k) {
+    let current = this.head;
+    let reference = this.head;
+    let count = 0;
+
+    if (k < 0) {
+      return 'k < 0';
+    }
+
+    if (current.next === null) {
+      return 'This is a list of one.';
+    }
+
+    if (this.head !== null) {
+      while (count < k) {
+        if (reference === null) {
+          return 'k > # nodes in list';
+        }
+        reference = reference.next;
+        count ++;
+      }
+      
+      while (reference !== null) {
+        current = current.next;
+        reference = reference.next;
+      }
+      return current.value;
+      
+    // if (k === count) {
+    //     return 'k = length of list';
+    //   }
+    }
+  }
+
 }
 
 module.exports = LinkedList;
