@@ -60,3 +60,10 @@ Table of Contents
 
 ## The challenge was to:
 * write a method that takes a number (k) as a parameter and returns the node's value that is "k" from the end of the linked list
+
+## Approach and Efficiency
+* Approach I took: used the 'runners technique' and tested until passing
+* Big O of space/time: O(n)
+
+## API
+* kthFromEnd()
