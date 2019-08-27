@@ -7,6 +7,7 @@ Table of Contents
 4. challenge-07-tic-tac-toe - placeholder
 5. challenge-08-kth-value-from-end - 8.24.2019
 6. challenge-10-stack-and-queue - 8.24.2019
+7. challenge-11-queue-with-stacks - 8.26.2019 - whiteboard: ![alt text](./assets/wb-code-challenge-11-queue-with-stacks.jpg "challenge 01 white board")
 
 ***
 
@@ -102,3 +103,17 @@ Table of Contents
 * enqueue()
 * dequeue()
 * peekFront()
+
+***
+
+# challenge-11-queue-with-stacks
+
+## The challenge was to:
+Implement a Queue using two Stacks
+
+## Approach and Efficiency
+* Big O of space/time: O(1) for enqueue both space and time, O(n) for dequeue time and O(1) dequeue space
+
+## API
+
+
