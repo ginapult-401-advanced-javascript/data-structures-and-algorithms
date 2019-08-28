@@ -20,5 +20,8 @@
   "homepage": "https://github.com/ginapult-401-advanced-javascript/data-structures-and-algorithms#readme",
   "devDependencies": {
     "jest": "^24.9.0"
+  },
+  "dependencies": {
+    "eslint": "^6.2.2"
   }
 }
