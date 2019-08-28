@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1566758249940" clover="3.2.0">
-  <project timestamp="1566758249941" name="All files">
+<coverage generated="1566951254546" clover="3.2.0">
+  <project timestamp="1566951254547" name="All files">
     <metrics statements="121" coveredstatements="96" conditionals="42" coveredconditionals="27" methods="19" coveredmethods="18" elements="182" coveredelements="141" complexity="0" loc="121" ncloc="121" packages="2" files="2" classes="2"/>
     <package name="challenge-05-linked-list">
       <metrics statements="85" coveredstatements="64" conditionals="30" coveredconditionals="19" methods="10" coveredmethods="9"/>
