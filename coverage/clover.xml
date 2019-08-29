@@ -90,7 +90,7 @@
         <line num="151" count="3" type="stmt"/>
         <line num="152" count="3" type="stmt"/>
         <line num="154" count="1" type="stmt"/>
-        <line num="164" count="1" type="stmt"/>
+        <line num="164" count="2" type="stmt"/>
       </file>
     </package>
     <package name="challenge-10-stacks-and-queues">

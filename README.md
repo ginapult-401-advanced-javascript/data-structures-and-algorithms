@@ -9,6 +9,7 @@ Table of Contents
 6. challenge-10-stack-and-queue - 8.24.2019
 7. challenge-11-queue-with-stacks - 8.26.2019 - whiteboard: ![alt text](./assets/wb-code-challenge-11-queue-with-stacks.jpg "challenge 01 white board")
 
+
 ***
 
 # challenge-05-linked-lists
