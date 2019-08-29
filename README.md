@@ -1,5 +1,47 @@
 # data-structures-and-algorithms
 
+# Code Challenge 05: Linked List
+
+## Table of Contents
+
+### Author: Gina Pultorak
+
+### Links and Resources
+* [submission PR](https://github.com/ginapult-401-advanced-javascript/deployment-workshop/pulls)
+* [travis](https://travis-ci.com/ginapult-401-advanced-javascript/deployment-workshop)
+* [front-end](https://ginapult-deploymentworkshop.herokuapp.com/) (when applicable)
+
+#### Documentation
+* [jsdoc](https://ginapult-deploymentworkshop.herokuapp.com/docs/) (Server assignments)
+
+### Modules
+#### `pos.js`
+##### Exported Values and Methods
+
+###### `isAlive(dead) -> boolean`
+Returns true/false to indicate how the server works
+
+### Setup
+#### `.env` requirements
+* `PORT` - 3000
+
+#### Running the app
+* `npm start`
+* Endpoint: `/`
+  * Returns a boolean.
+* Endpoint: `/docs`
+  * Returns JSDoc Documentation Pages.
+  
+#### Tests
+* Unit Tests: 'npm test'
+* Lint Tests: 'npm run lint'
+
+Incomplete Tests:
+- Need to test xyz ...
+
+#### UML
+![UML Diagram](whiteboard.jpg)
+=======
 Table of Contents
 1. challenge-01-reverseArray - 8.15.2019 - whiteboard: ![alt text](./assets/wb-code-challenge-01-reverse-array.jpg "challenge 01 white board")
 2. challenge-05-linked-lists - 8.24.2019
