@@ -1,6 +1,6 @@
 # data-structures-and-algorithms
 
-Table of Contents
+## Table of Contents
 1. challenge-01-reverseArray - 8.15.2019 - whiteboard: ![alt text](./assets/wb-code-challenge-01-reverse-array.jpg "challenge 01 white board")
 2. challenge-05-linked-lists - 8.24.2019
 3. challenge-06-ll-insertions - 8.24.2019
@@ -8,7 +8,7 @@ Table of Contents
 5. challenge-08-kth-value-from-end - 8.24.2019
 6. challenge-10-stack-and-queue - 8.24.2019
 7. challenge-11-queue-with-stacks - 8.26.2019 - whiteboard: ![alt text](./assets/wb-code-challenge-11-queue-with-stacks.jpg "challenge 01 white board")
-
+8. challenge-12-ll-merge - 8.27.2019
 
 ***
 
@@ -116,5 +116,4 @@ Implement a Queue using two Stacks
 * Big O of space/time: O(1) for enqueue both space and time, O(n) for dequeue time and O(1) dequeue space
 
 ## API
-
 
