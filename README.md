@@ -5,7 +5,7 @@
 2. challenge-05-linked-lists - 8.24.2019
 3. challenge-06-ll-insertions - 8.24.2019 - whiteboard: ![alt text](./assets/wb-code-challenge-06-ll-insertions.jpg "challenge 06 white board")
 4. challenge-07-tic-tac-toe - placeholder
-5. challenge-08-kth-value-from-end - 8.24.2019
+5. challenge-08-kth-value-from-end - 8.24.2019 - whiteboard: ![alt text](./assets/wb-code-challenge-08-kth-from-end.jpg "challenge 08 white board")
 6. challenge-10-stack-and-queue - 8.24.2019
 7. challenge-11-queue-with-stacks - 8.26.2019 - whiteboard: ![alt text](./assets/wb-code-challenge-11-queue-with-stacks.jpg "challenge 01 white board")
 8. challenge-12-ll-merge - 8.27.2019
