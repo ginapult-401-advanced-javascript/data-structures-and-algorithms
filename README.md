@@ -8,7 +8,7 @@
 5. challenge-08-kth-value-from-end - 8.24.2019 - whiteboard: ![alt text](./assets/wb-code-challenge-08-kth-from-end.jpg "challenge 08 white board")
 6. challenge-10-stack-and-queue - 8.24.2019
 7. challenge-11-queue-with-stacks - 8.26.2019 - whiteboard: ![alt text](./assets/wb-code-challenge-11-queue-with-stacks.jpg "challenge 01 white board")
-8. challenge-12-ll-merge - 8.27.2019
+8. challenge-12-ll-merge - 8.27.2019 - whiteboard: ![alt text](./assets/wb-code-challenge-12-merge-ll.jpg "challenge 12 white board")
 
 ***
 
