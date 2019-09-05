@@ -3,17 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="57c3db7e-902f-4da3-b6a0-415349f86b4d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/challenge-12-ll-merge/challenge12-ll-merge.js" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/challenge-12-ll-merge/challenge12-ll-merge.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/clover.xml" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/clover.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/coverage-final.json" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/coverage-final.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/challenge-05-linked-list/challenge-05-linked-list.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/challenge-05-linked-list/challenge-05-linked-list.js.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/challenge-05-linked-list/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/challenge-05-linked-list/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/challenge-10-stacks-and-queues/challenge-10-stacks-and-queues.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/challenge-10-stacks-and-queues/challenge-10-stacks-and-queues.js.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/challenge-10-stacks-and-queues/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/challenge-10-stacks-and-queues/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/challenge-11-queue-with-stacks/challenge-11-queue-with-stacks.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/challenge-11-queue-with-stacks/challenge-11-queue-with-stacks.js.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/challenge-11-queue-with-stacks/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/challenge-11-queue-with-stacks/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +63,7 @@
       <option name="presentableId" value="Default" />
       <updated>1566189341092</updated>
       <workItem from="1566189342778" duration="800000" />
-      <workItem from="1567574176677" duration="3674000" />
+      <workItem from="1567574176677" duration="4254000" />
     </task>
     <servers />
   </component>
