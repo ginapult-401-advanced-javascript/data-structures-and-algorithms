@@ -3,12 +3,13 @@
 ## Table of Contents
 1. challenge-01-reverseArray - 8.15.2019 - whiteboard: ![alt text](./assets/wb-code-challenge-01-reverse-array.jpg "challenge 01 white board")
 2. challenge-05-linked-lists - 8.24.2019
-3. challenge-06-ll-insertions - 8.24.2019
+3. challenge-06-ll-insertions - 8.24.2019 - whiteboard: ![alt text](./assets/wb-code-challenge-06-ll-insertions.jpg "challenge 06 white board")
 4. challenge-07-tic-tac-toe - placeholder
-5. challenge-08-kth-value-from-end - 8.24.2019
+5. challenge-08-kth-value-from-end - 8.24.2019 - whiteboard: ![alt text](./assets/wb-code-challenge-08-kth-from-end.jpg "challenge 08 white board")
 6. challenge-10-stack-and-queue - 8.24.2019
 7. challenge-11-queue-with-stacks - 8.26.2019 - whiteboard: ![alt text](./assets/wb-code-challenge-11-queue-with-stacks.jpg "challenge 01 white board")
-8. challenge-12-ll-merge - 8.27.2019
+8. challenge-12-ll-merge - 8.27.2019 - whiteboard: ![alt text](./assets/wb-code-challenge-12-merge-ll.jpg "challenge 12 white board")
+9. challenge-13-multibracket-validation - 9.3.2019 - whiteboard: whiteboard: ![alt text](./assets/wb-code-challenge-13-multibracket-validation.jpg "challenge 13 white board")
 
 ***
 
@@ -112,6 +113,29 @@
 ## The challenge was to:
 Implement a Queue using two Stacks
 
+## Approach and Efficiency
+* Big O of space/time: O(1) for enqueue both space and time, O(n) for dequeue time and O(1) dequeue space
+
+## API
+
+***
+
+# challenge-12-ll-merge
+
+## The challenge was to:
+Merge two link lists like a zipper
+
+## Approach and Efficiency
+* Big O of space/time: O(1) for enqueue both space and time, O(n) for dequeue time and O(1) dequeue space
+
+## API
+
+***
+
+# challenge-13-multi-bracket-validation
+
+## The challenge was to:
+Validate whether string input includes brackets that are balanced
 ## Approach and Efficiency
 * Big O of space/time: O(1) for enqueue both space and time, O(n) for dequeue time and O(1) dequeue space
 

@@ -24,7 +24,7 @@ function mergeLinkedLists (listA, listB) {
     let tempB = currentB.next;
     currentB.next = tempA;
     currentB = tempB;
-    curentA = currentA.next.next;
+    currentA = currentA.next.next;
   }
   return listA;
 }
