@@ -11,6 +11,7 @@
 8. challenge-12-ll-merge - 8.27.2019 - whiteboard: ![alt text](./assets/wb-code-challenge-12-merge-ll.jpg "challenge 12 white board")
 9. challenge-13-multibracket-validation - 9.3.2019 - whiteboard: ![alt text](./assets/wb-code-challenge-13-multibracket-validation.jpg "challenge 13 white board")
 10. challenge-17-find-binary-tree-leaves - 9.4.2019 - whiteboard: ![alt text](./assets/wb-code-challenge-17-find-binary-tree-leaves.jpg "challenge 17 white board")
+11. challenge-18-binary-tree-path-length - 9.5.2019 - whiteboard: ![alt text](./assets/wb-code-challenge-18-bt-path-length.jpg "challenge 18 white board")
 
 ***
 
@@ -145,6 +146,17 @@ Validate whether string input includes brackets that are balanced
 
 ## The challenge was to:
 Return the values of all the leaves of the binary tree
+
+## Approach and Efficiency
+* Big O of space/time: O(n) for space and O(1) time
+## API
+
+***
+
+# challenge-18-binary-tree-path-length
+
+## The challenge was to:
+Return the path length between parent and child values
 
 ## Approach and Efficiency
 * Big O of space/time: O(n) for space and O(1) time
