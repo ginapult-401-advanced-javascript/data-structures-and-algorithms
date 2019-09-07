@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1567898755939" clover="3.2.0">
-  <project timestamp="1567898755939" name="All files">
-    <metrics statements="183" coveredstatements="144" conditionals="89" coveredconditionals="68" methods="29" coveredmethods="24" elements="301" coveredelements="236" complexity="0" loc="183" ncloc="183" packages="6" files="6" classes="6"/>
+<coverage generated="1567900481524" clover="3.2.0">
+  <project timestamp="1567900481525" name="All files">
+    <metrics statements="218" coveredstatements="165" conditionals="169" coveredconditionals="118" methods="30" coveredmethods="25" elements="417" coveredelements="308" complexity="0" loc="218" ncloc="218" packages="7" files="7" classes="7"/>
     <package name="challenge-05-linked-list">
       <metrics statements="85" coveredstatements="64" conditionals="30" coveredconditionals="19" methods="10" coveredmethods="9"/>
       <file name="challenge-05-linked-list.js" path="/mnt/c/Users/gina/codefellows/401/data-structures-and-algorithms/challenges/challenge-05-linked-list/challenge-05-linked-list.js">
@@ -91,6 +91,47 @@
         <line num="152" count="3" type="stmt"/>
         <line num="154" count="1" type="stmt"/>
         <line num="164" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="challenge-07-tic-tac-toe">
+      <metrics statements="35" coveredstatements="21" conditionals="80" coveredconditionals="50" methods="1" coveredmethods="1"/>
+      <file name="challenge-07-tic-tac-toe.js" path="/mnt/c/Users/gina/codefellows/401/data-structures-and-algorithms/challenges/challenge-07-tic-tac-toe/challenge-07-tic-tac-toe.js">
+        <metrics statements="35" coveredstatements="21" conditionals="80" coveredconditionals="50" methods="1" coveredmethods="1"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="6" count="3" type="cond" truecount="3" falsecount="2"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="9" count="3" type="cond" truecount="5" falsecount="0"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="13" count="2" type="cond" truecount="4" falsecount="1"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="16" count="2" type="cond" truecount="3" falsecount="2"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="20" count="2" type="cond" truecount="3" falsecount="2"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="23" count="2" type="cond" truecount="3" falsecount="2"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="28" count="2" type="cond" truecount="5" falsecount="0"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="31" count="1" type="cond" truecount="2" falsecount="3"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="35" count="1" type="cond" truecount="2" falsecount="3"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="38" count="1" type="cond" truecount="3" falsecount="2"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="42" count="1" type="cond" truecount="3" falsecount="2"/>
+        <line num="43" count="0" type="stmt"/>
+        <line num="45" count="1" type="cond" truecount="2" falsecount="3"/>
+        <line num="46" count="0" type="stmt"/>
+        <line num="51" count="1" type="cond" truecount="4" falsecount="1"/>
+        <line num="52" count="0" type="stmt"/>
+        <line num="54" count="1" type="cond" truecount="2" falsecount="3"/>
+        <line num="55" count="0" type="stmt"/>
+        <line num="58" count="1" type="cond" truecount="4" falsecount="1"/>
+        <line num="59" count="0" type="stmt"/>
+        <line num="61" count="1" type="cond" truecount="2" falsecount="3"/>
+        <line num="62" count="0" type="stmt"/>
+        <line num="64" count="1" type="stmt"/>
+        <line num="69" count="1" type="stmt"/>
       </file>
     </package>
     <package name="challenge-10-stacks-and-queues">
