@@ -46,7 +46,7 @@ describe('Test finds path length in binary tree', () => {
     seven.right = twelve;
 
     one.right = twenty;
-    expect(recursiveFindLength(testTree2.root, 5, 0)).toEqual([11,12,20,2]);
+    expect(recursiveFindLength(testTree2.root, 5, 20, 0)).toEqual(2);
   });
 
 })

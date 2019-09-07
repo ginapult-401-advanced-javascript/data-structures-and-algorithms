@@ -15,14 +15,14 @@ class BinaryTreeNode {
   }
 
 
-  const recursiveFindLength = (root, child, pathLength) => {
+  const recursiveFindLength = (root, parent, child, pathLength) => {
     if(root === null) {
         return null;
     }
     if(root.value === child) {
         return pathLength;
     } else {
-        return recursiveFindLength(root.left, child, pathLength + 1) || recursiveFindLength(root.right, child, pathLength +1);
+        return recursiveFindLength(root.left, parent, child, pathLength + 1) || recursiveFindLength(root.right, parent, child, pathLength + 1);
     }
   };
 
