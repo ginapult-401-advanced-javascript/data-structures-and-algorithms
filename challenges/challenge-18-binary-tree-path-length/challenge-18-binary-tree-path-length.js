@@ -1,20 +1,29 @@
 'use strict';
 
-const recursiveFindLength = (root, parent, child, edgeCount = 0) => {
-    edgeCount++;
-    let stack = new Stack();
-    let root = current;
-    if(current === parent) {
-        stack.push(current);
+class BinaryTreeNode {
+    constructor(value) {
+      this.value = value;
+      this.right = null;
+      this.left = null;
     }
-    if(current === child) {
-        return edgeCount;
+  }
+  
+  class BinaryTree {
+    constructor() {
+      this.root = null;
     }
-    if(current.left) {
-        recursiveFindLength(current.left);
+  }
+
+
+  const recursiveFindLength = (root, child, pathLength) => {
+    if(root === null) {
+        return null;
     }
-    if(current.right) {
-        recursiveFindLength(current.right);
+    if(root.value === child) {
+        return pathLength;
+    } else {
+        return recursiveFindLength(root.left, child, pathLength + 1) || recursiveFindLength(root.right, child, pathLength +1);
     }
-    return edgeCount;
-};
+  };
+
+module.exports = recursiveFindLength;

@@ -1,19 +1,32 @@
 'use strict';
 
-function findLeavesRecursive(current) {
-  let array = [];
-  if(current === null) {
-    return 'empty binary tree';
+class BinaryTreeNode {
+  constructor(value) {
+    this.value = value;
+    this.right = null;
+    this.left = null;
   }
-  if(!current.left && !current.right) {
-    array.push(current);
+}
+
+class BinaryTree {
+  constructor() {
+    this.root = null;
   }
-  if(current.left) {
-    findLeavesRecursive(current.left);
+}
+
+const findLeavesRecursive = (node, leafArray = []) => {
+  if(node === null) {
+    return;
   }
-  if(current.right) {
-    findLeavesRecursive(current.right);
-  }   return array;
+  if(!node.left && !node.right) {
+    leafArray.push(node.value);
+  }
+  if(node.left) {
+    findLeavesRecursive(node.left, leafArray);
+  }
+  if(node.right) {
+    findLeavesRecursive(node.right, leafArray);
+  }   
+  return leafArray;
 }
 module.exports = findLeavesRecursive;
-
