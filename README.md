@@ -56,7 +56,17 @@
 
 ***
 
-# challenge-07-tic-tac-toe - placeholder
+# challenge-07-tic-tac-toe
+
+## The challenge was to:
+* write a function that takes in a matrix of x's and o's and determines who wins the game or if there is a tie
+
+## Approach and Efficiency
+* Approach: use the index of each element of each array and compare patterns across, up and down, and diagonally
+* Big O of space/time: O(n^2) because have to go through every element of the matrix (array of arrays)
+
+## API
+* whoWins()
 
 ***
 
