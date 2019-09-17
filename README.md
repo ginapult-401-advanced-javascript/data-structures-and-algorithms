@@ -9,7 +9,9 @@
 6. challenge-10-stack-and-queue - 8.24.2019
 7. challenge-11-queue-with-stacks - 8.26.2019 - whiteboard: ![alt text](./assets/wb-code-challenge-11-queue-with-stacks.jpg "challenge 01 white board")
 8. challenge-12-ll-merge - 8.27.2019 - whiteboard: ![alt text](./assets/wb-code-challenge-12-merge-ll.jpg "challenge 12 white board")
-9. challenge-13-multibracket-validation - 9.3.2019 - whiteboard: whiteboard: ![alt text](./assets/wb-code-challenge-13-multibracket-validation.jpg "challenge 13 white board")
+9. challenge-13-multibracket-validation - 9.3.2019 - whiteboard: ![alt text](./assets/wb-code-challenge-13-multibracket-validation.jpg "challenge 13 white board")
+
+10. challenge-26-repeated-word - 9.16-2019 - whiteboard: ![alt text](./assets/wb-challenge-26-repeated-word.jpg "challenge 26 white board")
 
 ***
 
@@ -141,3 +143,12 @@ Validate whether string input includes brackets that are balanced
 
 ## API
 
+***
+
+# challenge-26-repeated-word
+
+## The challenge was to:
+Write a function that accepts a lengthy string parameter and returns the first word to occur more than once in the provided string.
+
+## Approach and Efficiency
+* Big O of space/time: O(1) for both space and time - utilizing a set

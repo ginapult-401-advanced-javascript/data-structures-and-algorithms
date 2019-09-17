@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1567577039163" clover="3.2.0">
-  <project timestamp="1567577039163" name="All files">
-    <metrics statements="135" coveredstatements="109" conditionals="44" coveredconditionals="28" methods="22" coveredmethods="21" elements="201" coveredelements="158" complexity="0" loc="135" ncloc="135" packages="3" files="3" classes="3"/>
+<coverage generated="1568681131887" clover="3.2.0">
+  <project timestamp="1568681131888" name="All files">
+    <metrics statements="144" coveredstatements="118" conditionals="46" coveredconditionals="30" methods="23" coveredmethods="22" elements="213" coveredelements="170" complexity="0" loc="144" ncloc="144" packages="4" files="4" classes="4"/>
     <package name="challenge-05-linked-list">
       <metrics statements="85" coveredstatements="64" conditionals="30" coveredconditionals="19" methods="10" coveredmethods="9"/>
       <file name="challenge-05-linked-list.js" path="/mnt/c/Users/gina/codefellows/401/data-structures-and-algorithms/challenges/challenge-05-linked-list/challenge-05-linked-list.js">
@@ -153,6 +153,21 @@
         <line num="26" count="5" type="stmt"/>
         <line num="28" count="5" type="stmt"/>
         <line num="32" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="challenge-26-repeated-word">
+      <metrics statements="9" coveredstatements="9" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="challenge-26-repeated-word.js" path="/mnt/c/Users/gina/codefellows/401/data-structures-and-algorithms/challenges/challenge-26-repeated-word/challenge-26-repeated-word.js">
+        <metrics statements="9" coveredstatements="9" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="9" count="14" type="cond" truecount="2" falsecount="0"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="12" count="12" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
       </file>
     </package>
   </project>
