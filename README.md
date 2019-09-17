@@ -12,6 +12,7 @@
 9. challenge-13-multibracket-validation - 9.3.2019 - whiteboard: ![alt text](./assets/wb-code-challenge-13-multibracket-validation.jpg "challenge 13 white board")
 10. challenge-17-find-binary-tree-leaves - 9.4.2019 - whiteboard: ![alt text](./assets/wb-code-challenge-17-find-binary-tree-leaves.jpg "challenge 17 white board")
 11. challenge-18-binary-tree-path-length - 9.5.2019 - whiteboard: ![alt text](./assets/wb-code-challenge-18-bt-path-length.jpg "challenge 18 white board")
+12. challenge-26-repeated-word - 9.16-2019 - whiteboard: ![alt text](./assets/wb-challenge-26-repeated-word.jpg "challenge 26 white board")
 
 ***
 
@@ -172,3 +173,12 @@ Return the path length between parent and child values
 * Big O of space/time: O(n) for space and O(1) time
 ## API
 
+***
+
+# challenge-26-repeated-word
+
+## The challenge was to:
+Write a function that accepts a lengthy string parameter and returns the first word to occur more than once in the provided string.
+
+## Approach and Efficiency
+* Big O of space/time: O(n) for both space and time - utilizing a set, but splitting string and iterating over array
