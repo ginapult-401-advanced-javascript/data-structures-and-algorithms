@@ -13,7 +13,8 @@
 10. challenge-17-find-binary-tree-leaves - 9.4.2019 - whiteboard: ![alt text](./assets/wb-code-challenge-17-find-binary-tree-leaves.jpg "challenge 17 white board")
 11. challenge-18-binary-tree-path-length - 9.5.2019 - whiteboard: ![alt text](./assets/wb-code-challenge-18-bt-path-length.jpg "challenge 18 white board")
 12. challenge-26-repeated-word - 9.16.2019 - whiteboard: ![alt text](./assets/wb-challenge-26-repeated-word.jpg "challenge 26 white board")
-13. challenge-27-find-max-binary-tree - 9.17.2019 - whiteboard: ![alt text](./assets/wb-challenge-27-find-max-binary-tree "challenge 27 white board")
+13. challenge-27-find-max-binary-tree - 9.17.2019 - whiteboard: ![alt text](./assets/wb-challenge-27-find-max-binary-tree.jpg "challenge 27 white board")
+14. challenge-28-ll-delete-dupes = 9.18.2019 - whiteboard: ![alt text](./assets/wb-challenge-28-ll-delete-dupes.jpg "challenge 28 white board")
 
 ***
 
@@ -193,3 +194,13 @@ Write a function that finds the maximum value in a binary tree.
 
 ## Approach and Efficiency
 * Big O of space/time: O(n) for time (traverses nodes of binary tree) and O(1) for space (only stores one value at a time (max value)).
+
+***
+
+# challenge-28-ll-delete-dupes
+
+## The challenge was to:
+Write a function that deletes duplicate values in a linked list.
+
+## Approach and Efficiency
+* Big O of space/time: O(n) for time (traverses all nodes) and O(n) for space (stores all of the values in a hashset).
