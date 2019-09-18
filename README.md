@@ -12,7 +12,8 @@
 9. challenge-13-multibracket-validation - 9.3.2019 - whiteboard: ![alt text](./assets/wb-code-challenge-13-multibracket-validation.jpg "challenge 13 white board")
 10. challenge-17-find-binary-tree-leaves - 9.4.2019 - whiteboard: ![alt text](./assets/wb-code-challenge-17-find-binary-tree-leaves.jpg "challenge 17 white board")
 11. challenge-18-binary-tree-path-length - 9.5.2019 - whiteboard: ![alt text](./assets/wb-code-challenge-18-bt-path-length.jpg "challenge 18 white board")
-12. challenge-26-repeated-word - 9.16-2019 - whiteboard: ![alt text](./assets/wb-challenge-26-repeated-word.jpg "challenge 26 white board")
+12. challenge-26-repeated-word - 9.16.2019 - whiteboard: ![alt text](./assets/wb-challenge-26-repeated-word.jpg "challenge 26 white board")
+13. challenge-27-find-max-binary-tree - 9.17.2019 - whiteboard: ![alt text](./assets/wb-challenge-27-find-max-binary-tree "challenge 27 white board")
 
 ***
 
@@ -182,3 +183,13 @@ Write a function that accepts a lengthy string parameter and returns the first w
 
 ## Approach and Efficiency
 * Big O of space/time: O(n) for both space and time - utilizing a set, but splitting string and iterating over array
+
+***
+
+# challenge-27-repeated-word
+
+## The challenge was to:
+Write a function that finds the maximum value in a binary tree.
+
+## Approach and Efficiency
+* Big O of space/time: O(n) for time (traverses nodes of binary tree) and O(1) for space (only stores one value at a time (max value)).
