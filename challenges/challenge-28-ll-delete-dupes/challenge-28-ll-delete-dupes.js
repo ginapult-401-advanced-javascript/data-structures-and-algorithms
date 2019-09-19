@@ -25,31 +25,17 @@ class LinkedList {
 
   llDeleteDupes(node) {
     const valSet = new Set();
-    if (!valSet.has(this.head.value)) {
-      this.previous.next = this.next;
-    }
-    if (this.head.value === value) {
-      this.head = this.head.next;
-      return;
-    }
-    
-    let previous = null;
-    let current = this.head;
-
-    while(current.value !== value) {
-      previous = current;
-      current = current.next;
-    }
-    previous.next = current.next;
-  }
-
-  includes(value) {
     let current = this.head;
     while(current) {
-      if(current.value === value) {
-        return true;
-      } 
+      if(valSet.has(current.value)) {
+        current.next = current.next.next;
+      }
+      if(!valSet.has(current.value)) {
+        valSet.add(current.value);
+      }
       current = current.next;
     }
-    return false;
   }
+};
+
+module.exports = llDeleteDupes;
