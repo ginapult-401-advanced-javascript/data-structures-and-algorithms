@@ -17,6 +17,7 @@
 14. challenge-28-ll-delete-dupes = 9.18.2019 - whiteboard: ![alt text](./assets/wb-challenge-28-ll-delete-dupes.jpg "challenge 28 white board")
 15. challenge-32-create-union-and-intersection - 9.24.2019 - whiteboard: ![alt text](./assets/wb-challenge-32-create-union-and-intersection.jpg "challenge 28 white board")
 16. challenge-33-left-join-hash-maps - 9.30.2019 - whiteboard: TBA
+17. challenge-37-insertion-sort - 10.1.2019 - whiteboard: TBA
 
 ***
 
@@ -225,4 +226,14 @@ Write a function that finds the union and intersection of two binary trees.
 Write a function that left joins two hashmaps into a single data structure.
 
 ## Approach and Efficiency
-* Big O of space/time: O(n) for time (traverses all nodes) and O(n) for space (create hashmap(O(a)), recursion (O(h)), union (O(n)), intersection (O(n))).
+* Big O of space/time: TBD
+
+***
+
+# challenge-37-insertion-sort
+
+## The challenge was to:
+Complete a working, tested implementation of Insertion Sort, based on the pseudo code provided.
+
+## Approach and Efficiency
+* Big O of space/time: TBD O(n) because looping twice.
