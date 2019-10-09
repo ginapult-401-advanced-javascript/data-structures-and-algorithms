@@ -37,7 +37,7 @@ class BinaryTreeNode {
     if (helperSet.has(rootB.value)) {
       intersectionTracker.push(rootB.value);
     } else {
-    unionTracker.add(rootB.value);
+    unionTracker.push(rootB.value);
     }
     traverseTreeBAndCompare(root.left);
     traverseTreeBAndCompare(root.right);

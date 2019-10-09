@@ -16,6 +16,7 @@
 13. challenge-27-find-max-binary-tree - 9.17.2019 - whiteboard: ![alt text](./assets/wb-challenge-27-find-max-binary-tree.jpg "challenge 27 white board")
 14. challenge-28-ll-delete-dupes = 9.18.2019 - whiteboard: ![alt text](./assets/wb-challenge-28-ll-delete-dupes.jpg "challenge 28 white board")
 15. challenge-32-create-union-and-intersection - 9.24.2019 - whiteboard: ![alt text](./assets/wb-challenge-32-create-union-and-intersection.jpg "challenge 28 white board")
+16. challenge-33-left-join-hash-maps - 9.30.2019 - whiteboard: TBA
 
 ***
 
@@ -212,6 +213,16 @@ Write a function that deletes duplicate values in a linked list.
 
 ## The challenge was to:
 Write a function that finds the union and intersection of two binary trees.
+
+## Approach and Efficiency
+* Big O of space/time: O(n) for time (traverses all nodes) and O(n) for space (create hashmap(O(a)), recursion (O(h)), union (O(n)), intersection (O(n))).
+
+***
+
+# challenge-33-left-join-hash-maps
+
+## The challenge was to:
+Write a function that left joins two hashmaps into a single data structure.
 
 ## Approach and Efficiency
 * Big O of space/time: O(n) for time (traverses all nodes) and O(n) for space (create hashmap(O(a)), recursion (O(h)), union (O(n)), intersection (O(n))).
