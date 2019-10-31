@@ -15,8 +15,8 @@
 12. challenge-26-repeated-word - 9.16.2019 - whiteboard: ![alt text](./assets/wb-challenge-26-repeated-word.jpg "challenge 26 white board")
 13. challenge-27-find-max-binary-tree - 9.17.2019 - whiteboard: ![alt text](./assets/wb-challenge-27-find-max-binary-tree.jpg "challenge 27 white board")
 14. challenge-28-ll-delete-dupes = 9.18.2019 - whiteboard: ![alt text](./assets/wb-challenge-28-ll-delete-dupes.jpg "challenge 28 white board")
-15. challenge-32-create-union-and-intersection - 9.24.2019 - whiteboard: ![alt text](./assets/wb-challenge-32-create-union-and-intersection.jpg "challenge 28 white board")
-16. challenge-33-left-join-hash-maps - 9.30.2019 - whiteboard: TBA
+15. challenge-32-create-union-and-intersection - 9.24.2019 - whiteboard: ![alt text](./assets/wb-challenge-32-create-union-and-intersection.jpg "challenge 32 white board")
+16. challenge-33-left-join-hash-maps - 9.30.2019 - whiteboard: ![alt text](./assets/wb-challenge-33-left-join-hash-maps.jpg "challenge 33 white board")
 17. challenge-37-insertion-sort - 10.1.2019 - BLOG.md
 
 ***
@@ -226,7 +226,7 @@ Write a function that finds the union and intersection of two binary trees.
 Write a function that left joins two hashmaps into a single data structure.
 
 ## Approach and Efficiency
-* Big O of space/time: TBD
+* Big O of space/time: Both are O(2n) => O(n) because you have to loop through the key value pairs of each of the maps and you are also storing the data into a new array.
 
 ***
 
